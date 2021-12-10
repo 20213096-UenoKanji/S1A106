@@ -57,6 +57,7 @@ li {
  見出し
 ---------------------------------*/
 .title {
+  font-family: 'DotGothic16', sans-serif;
   font-size: 34px;
   font-weight: bold;
   line-height: 1;
@@ -153,6 +154,7 @@ li {
 }
 
 .main-visual-title {
+  font-family: 'DotGothic16', sans-serif;
   font-size: 60px;
   font-weight: bold;
   line-height: 1.2;
@@ -160,6 +162,7 @@ li {
   letter-spacing: .1em;
 }
 .main-visual-subtitle {
+  font-family: 'DotGothic16', sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
@@ -181,6 +184,7 @@ li {
   border-radius: 50%;
 }
 .main-visual-text {
+  font-family: 'DotGothic16', sans-serif;
   flex: 1;
 }
 .main-visual-text p:not(:last-child) {
@@ -208,6 +212,7 @@ li {
 }
 
 .btn-denim {
+  font-family: 'DotGothic16', sans-serif;
   display: inline-block;
   max-width: 180px;
   text-align: center;
@@ -226,6 +231,7 @@ li {
 }
 
 .btn-open {
+  font-family: 'DotGothic16', sans-serif;
   display: inline-block;
   max-width: 180px;
   height:50px;
@@ -267,6 +273,7 @@ li {
 }
 
 .btn-box {
+  font-family: 'DotGothic16', sans-serif;
   display: inline-block;
   max-width: 180px;
   text-align: center;
@@ -316,6 +323,7 @@ li {
 }
 
 .btn-gradation {
+  font-family: 'DotGothic16', sans-serif;
   display: inline-block;
   max-width: 180px;
   text-align: center;
@@ -424,6 +432,7 @@ li {
  フッター
 ---------------------------------*/
 .footer {
+  font-family: Comic Sans MS;
   padding: 30px;
   background-color: #333;
 }
