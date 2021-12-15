@@ -160,6 +160,10 @@ li {
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  transition: color 1s;
+}
+.main-visual-title:hover{
+  color: red;
 }
 .main-visual-subtitle {
   font-family: 'DotGothic16', sans-serif;
@@ -183,6 +187,8 @@ li {
 .main-visual-img img {
   border-radius: 50%;
 }
+.main-visual-img {animation: 1s ease 3s 1 normal;}
+
 .main-visual-text {
   font-family: 'DotGothic16', sans-serif;
   flex: 1;
@@ -192,7 +198,7 @@ li {
 }
 
 /*--------------------------------
- Works
+Works
 ---------------------------------*/
 .works-list {
   display: flex;
@@ -364,7 +370,10 @@ li {
   width: 60px;
   height: auto;
   margin-right: 20px;
+  border-radius: 50%;
 }
+.skill-img{transition: width 0.5s ease;}
+.skill-img:hover {width: 400px;}
 
 .skill-body {
   flex: 1;
