@@ -165,7 +165,7 @@ li {
   transition: color 1s;
 }
 .main-visual-title:hover{
-  color: red;
+  color: #f1e753;
 }
 .main-visual-subtitle {
   font-family: 'DotGothic16', sans-serif;
@@ -320,7 +320,7 @@ Works
   box-sizing: border-box;
   transform: scale(0);
   transition: .2s;
-  z-index: -1;
+  z-index: 1;
 }
 
 .btn-box:before {
