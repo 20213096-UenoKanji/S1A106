@@ -81,6 +81,7 @@ li {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  z-index: 3;
 }
 
 .header .inner {
@@ -96,6 +97,7 @@ li {
   line-height: 1.2;
   margin-right: 20px;
   letter-spacing: .05em;
+  z-index: 2;
 }
 
 .header-logo a {
@@ -187,12 +189,19 @@ li {
 .main-visual-img img {
   border-radius: 50%;
 }
-.main-visual-img {animation: 1s ease 3s 1 normal;}
-
+.main-visual-img {animation: BIG 0.8s ease 0s infinite normal;}
+@keyframes BIG {
+  0% {transform: scale(1);}
+  8% {transform: scale(1);}
+  15% {transform: scale(1.1);}
+  100%{transform: scale(1);}
+}
 .main-visual-text {
   font-family: 'DotGothic16', sans-serif;
   flex: 1;
+  transition: transform 0.5s ease ;
 }
+.main-visual-text:hover{transform: scale(1.3);}
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -204,6 +213,7 @@ Works
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  z-index: 1;
 }
 
 .works-item {
@@ -291,6 +301,7 @@ Works
   position: relative;
   border: 2px solid #9ec34b;
   transition: .4s;
+  z-index: -1;
 }
 
 .btn-box:hover {
@@ -309,6 +320,7 @@ Works
   box-sizing: border-box;
   transform: scale(0);
   transition: .2s;
+  z-index: -1;
 }
 
 .btn-box:before {
@@ -370,7 +382,7 @@ Works
   width: 60px;
   height: auto;
   margin-right: 20px;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 .skill-img{transition: width 0.5s ease;}
 .skill-img:hover {width: 400px;}
