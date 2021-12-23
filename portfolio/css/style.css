@@ -151,6 +151,12 @@ li {
   text-align: center;
 }
 
+.main-visual-logo-img {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0%;
+}
+
 .main-visual-inner {
   padding: 0 40px;
 }
